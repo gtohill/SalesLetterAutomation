@@ -112,9 +112,9 @@ class Suggestions:
                 content['product_search_function'] = product_search
 
             # add content to docx template
-            doc = DocxTemplate('C:/Users/gtohi/OneDrive/test.docx')
+            doc = DocxTemplate('path/to/template.docx')
             doc.render(content)
-            doc.save("C:/Users/gtohi/OneDrive/generated.docx")
+            doc.save("path/to/generated.docx")
 
             # show alert message to screen
 
